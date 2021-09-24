@@ -12,9 +12,10 @@ var longestSubarray = function(nums, limit) {
       console.log(arr)
       for(let i = 0; i < arr.length; i++){
         const diff = arr[0]- arr[i]
-        if(diff <= target) ansArr = arr
+        if(diff <= target && ) ansArr = arr
+        console.log(diff <= target)
       }
-      return compareFunc(arr.slice(0, arr.length - 1),target,ansArr)
+      return compareFunc(arr.slice(1),target,ansArr)
     }
     return compareFunc(nums,limit)
 };
