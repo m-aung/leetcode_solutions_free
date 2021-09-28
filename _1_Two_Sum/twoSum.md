@@ -16,9 +16,10 @@
 > Output: [0,1]
 > Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-    Use linear search algorithm to find the difference of each element. Need a cache to store the difference. During iteration, check the current difference exists in the cahce or not. Store it in the cache unless found in it. If found, return the indices of the two nums.
+    Use linear search algorithm to find the difference of each element. Need a cache to store the difference.
+    During iteration, check the current difference exists in the cahce or not. Store it in the cache unless found in it.
+    If found, return the indices of the two nums.
     Time complexity O(n)
-
 
 ## Pseudo Code
 
